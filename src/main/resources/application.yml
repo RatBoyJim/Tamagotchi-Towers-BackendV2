@@ -1,0 +1,9 @@
+auth0:
+auth0.audience: http://localhost:8080/api
+spring:
+security:
+oauth2:
+resourceserver:
+jwt:
+issuer-uri: https://dev-pwz4okbn.eu.auth0.com/
+spring.security.oauth2.resourceserver.jwt.issuer-uri: https://dev-pwz4okbn.eu.auth0.com/
