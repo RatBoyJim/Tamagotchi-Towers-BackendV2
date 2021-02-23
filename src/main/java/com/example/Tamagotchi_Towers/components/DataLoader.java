@@ -27,7 +27,7 @@ public class DataLoader implements ApplicationRunner{
         User stuart = new User("Stuart", "1", "fakeImgUrl");
         userRepository.save(stuart);
 
-        User andy = new User("Andy", "2", "fakeImgUrl");
+        User andy = new User("ratboyjim@gmail.com", "2", "fakeImgUrl");
         userRepository.save(andy);
 
         User emily = new User("Emily", "3", "fakeImgUrl");
